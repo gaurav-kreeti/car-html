@@ -1,0 +1,365 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+}
+header{
+  background-image: url('assets/bg-1920-new.jpg');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-size: 100% 100%;
+  /* height: 90vh; */
+}
+.logo img{
+  width: 6rem;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.nav-menu{
+  display: flex;
+}
+.nav-menu__item{
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+.nav-menu__item i{
+  padding: 0 1rem;
+}
+.nav-menu__link{
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+.nav-menu__item:hover{
+  color: #dc710d;
+}
+#login-user{
+  margin-left: 2rem;
+}
+#login-icon{
+  color:  #ff9324;
+}
+#add-item{
+  border: 1px solid  #ff9324;
+}
+.hamburger{
+  display: none;
+}
+.banner{
+  width: 60%;
+  margin: auto;
+}
+.banner__text{
+  text-align: center;
+  font-size: 5rem;
+}
+.highlight{
+  color: #ff9324;
+}
+.banner-links{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.banner-links li{
+  list-style-type: none;
+
+}
+.banner-links li:hover{
+  color:  #ff9324;;
+}
+.banner-links__item{
+  background-color: white;
+  display: flex;
+  max-width: 30%;
+  margin: auto;
+
+}
+.banner-logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+  gap: 2rem;
+}
+.banner-logo__item{
+  display: flex;
+  flex-direction: column;
+}
+.banner-logo img{
+  padding: 1rem 0.5rem;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.banner-logo span{
+  text-align: center;
+}
+main{
+  width: 80vw;
+  margin:3rem auto;
+
+}
+.services-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.services{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.service-card{
+  text-align: center;
+  margin: 1rem 2rem;
+  width: 25%;
+}
+.service-icon{
+  width: 15%;
+  background-color: #ff9324;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+.service-card p{
+  font-size: 1rem;
+  color: #707070;
+}
+.service-card button{
+  border: 1px solid #ff9324;
+  background-color: #000;
+  color: #ff9324;
+  padding: 0.8rem  1rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.service-card button:hover{
+  background-color: #ff9324;
+  color: #fff;
+}
+.find-section{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+.find-section-text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.find-section-steps{
+  width: 50%;
+  background-color: #ff9324;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+  gap: 1rem;
+}
+.find-section-steps ol li{
+  padding: 0.5rem 0;
+}
+.images-section{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 15rem;
+}
+.images-section .image{
+  width: 33%;
+}
+.explain-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 3rem 0;
+}
+.explain-section__text{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.explain-section__text--underline{
+  text-decoration: underline;
+}
+.explain-section__text--yellow{
+  background-color: #ff9324;
+}
+.explain-section-img{
+  width: 50%;
+  padding: 3rem;
+  height: 25rem;
+  border-radius: 50%;
+}
+.faq-section{
+  text-align: center;
+  margin: 3rem 1rem;
+}
+.accordion-button{
+  background-color: #ff9324 !important;
+}
+.accordion-item{
+  background-color:black !important;
+  color:white;
+}
+.car-Ad-section{
+  display: flex;
+}
+.car-Ad-section img{
+  width: 70%;
+}
+.car-Ad-text{
+  text-align: center;
+  font-size: 2rem;
+  padding:3rem;
+  padding-left: 2rem;
+}
+.contact-us{
+  display: flex;
+  gap: 1rem;
+}
+.contact-us__text{
+  width: 50%;
+}
+#name{
+  width: 100%;
+  background-color: #000;
+  border: 0;
+}
+#email{
+  width: 100%;
+  background-color: #000;
+  border: 0;
+}
+#message{
+  width: 100%;
+  background-color: #000;
+  border: 0;
+}
+#submit{
+  color: #dc710d;
+  border-radius: 10%;
+  background-color: #000;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #dc710d;
+}
+.contact-us form{
+  width: 50%;
+}
+footer{
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+@media screen and (max-width:1024px){
+  html{
+    font-size: 12px;
+  }
+  
+}
+@media screen and (max-width:900px){
+  html{
+    font-size: 9px;
+  }
+  
+}
+@media screen and (max-width:767px) {
+  .banner__text{
+    font-size: 3rem;
+  }
+  .hamburger{
+    display: block;
+    color: #ff9324;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  nav{
+    justify-content: space-between;
+  }
+  .nav-menu{
+    flex-direction: column;
+    position: absolute;
+    left: -100%;
+    top: 100%;
+    transition: 0.3s ease-in-out;
+    background-color:  #dc710d;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 2rem;
+    justify-content: center;
+  }
+  .nav-menu__item:hover{
+    color: black;
+  }
+  #login-user{
+    margin-left: 0;
+  }
+  .banner-logo img{
+    width: 4rem;
+  }
+  .find-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3rem 0;
+  }
+  .find-section-text{
+    width: auto;
+    flex-direction: column;
+  }
+  .find-section-steps{
+    width: auto;
+  }
+  .images-section{
+    flex-direction: column;
+    height: auto;
+  }
+  .images-section .image{
+    width: auto;
+  }
+  .explain-section{
+    flex-direction: column;
+  }
+  .explain-section__text{
+    width: auto;
+  }
+  .explain-section-img{
+    width: 100%;
+  }
+  .services{
+    flex-direction: column;
+  }
+  .service-card{
+    width: auto;
+  }
+  .car-Ad-section{
+    flex-direction: column;
+  }
+  .car-Ad-section img{
+    width: 100%;
+  }
+  .contact-us{
+   flex-direction: column;
+  }
+  .contact-us__text{
+    width: auto;
+  }
+}
+
